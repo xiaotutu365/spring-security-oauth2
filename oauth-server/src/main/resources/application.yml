@@ -1,0 +1,12 @@
+security:
+  oauth2:
+    client:
+      client-id: client
+      client-secret: client
+server:
+  port: 8081
+spring:
+  security:
+    user:
+      name: admin
+      password: 123456

@@ -1,0 +1,12 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: c0415fc2c5dc8df04dbb
+            client-secret: 44e8925b45839e9e7b37fc1b7ffaedf82e9e6c1f
+    user:
+      name: admin
+      password: 123456
+      roles: admin
